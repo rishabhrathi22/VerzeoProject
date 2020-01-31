@@ -1,0 +1,69 @@
+.box {
+	background-color: #404040;
+	width: 40%;
+	height: 70%;
+	position: fixed;
+	margin-top: 5%;
+	margin-left: 30%;
+	vertical-align: center;
+	border-radius: 25px;
+}
+
+.box_header {
+	background-color: #4d4d4d;
+	position: fixed;
+	height: 10%;
+	width: 40%;
+	border-top-left-radius: 25px;
+	border-top-right-radius: 25px;
+	color: white;
+	text-align: center;
+}
+
+.myform {
+	text-align: center;
+	margin-top: 150px;
+}
+
+input, select {
+	padding: 15px 30px;
+  	letter-spacing: 2px;
+  	width: 50%;
+}
+
+.send{
+	background-color: #404040;
+	border: none;
+	color: #FF1493;
+	font-size: 25px; 
+	font-family: Comic Sans MS;
+}
+
+.cancel{
+	background-color: #404040;
+	border: none;
+	color: #FF1493;
+	font-size: 25px; 
+	font-family: Comic Sans MS;
+}
+
+.send:hover {
+	color: white;
+}
+
+.cancel:hover {
+	color: white;
+}
+
+
+/* Footer */
+.footer {
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  font-size: 20px;
+  color: white;
+  padding: ;
+}
